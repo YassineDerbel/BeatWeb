@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "767755313355",
+    "project_id": "louage-express-f1b3f",
+    "storage_bucket": "louage-express-f1b3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767755313355:android:c58b4f03e456c0a35dfb4e",
+        "android_client_info": {
+          "package_name": "com.example.louag_express"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767755313355-45710tfh9i5cibv6sd898aqb2566ns1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqa7KgzFdTzONcOEbxx6w-v_knhjh2qnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767755313355-45710tfh9i5cibv6sd898aqb2566ns1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
