@@ -11,24 +11,24 @@ class BOutlinedButtonTheme {
   /* -- Light Theme -- */
   static final lightOutlinedButtonTheme = OutlinedButtonThemeData(
     style: OutlinedButton.styleFrom(
-      shape: RoundedRectangleBorder(),
+      shape: const RoundedRectangleBorder(),
       foregroundColor: cSecondaryColor,
-      side: BorderSide(
+      side: const BorderSide(
         color: cSecondaryColor,
       ),
-      padding: EdgeInsets.symmetric(vertical: sButtonHeight),
+      padding: const EdgeInsets.symmetric(vertical: sButtonHeight),
     ),
   );
 
   /* -- Dark Theme -- */
   static final darkOutlinedButtonTheme = OutlinedButtonThemeData(
     style: OutlinedButton.styleFrom(
-      shape: RoundedRectangleBorder(),
+      shape: const RoundedRectangleBorder(),
       foregroundColor: cWhiteColor,
-      side: BorderSide(
+      side: const BorderSide(
         color: cWhiteColor,
       ),
-      padding: EdgeInsets.symmetric(vertical: sButtonHeight),
+      padding: const EdgeInsets.symmetric(vertical: sButtonHeight),
     ),
   );
 }

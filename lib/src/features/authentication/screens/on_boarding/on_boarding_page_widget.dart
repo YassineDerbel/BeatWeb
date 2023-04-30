@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:louag_express/src/constants/size.dart';
 
 import '../../models/model_on_boarding.dart';
 
 class OnBoardingPageWidget extends StatelessWidget {
   const OnBoardingPageWidget({
-    super.key,
+    Key? key,
     required this.model,
-  });
+  }) : super(key: key);
 
   final OnBoardingModel model;
 
@@ -14,6 +15,7 @@ class OnBoardingPageWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Container(
+      padding: const EdgeInsets.all(sDefaultSize),
       color: model.bgColor,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,

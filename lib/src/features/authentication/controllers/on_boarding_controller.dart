@@ -51,6 +51,4 @@ class OnBoardingController extends GetxController {
   }
 
   skip() => controller.jumpToPage(page: 2);
-
-  onDonePressed() {}
 }

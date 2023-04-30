@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:louag_express/src/constants/colors.dart';
 import 'package:louag_express/src/constants/images.dart';
 import 'package:louag_express/src/constants/size.dart';
 import 'package:louag_express/src/constants/text_strings.dart';
+import 'package:louag_express/src/features/authentication/screens/login/login_screen.dart';
+import 'package:louag_express/src/features/authentication/screens/signup/signup_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
@@ -42,18 +45,18 @@ class WelcomeScreen extends StatelessWidget {
             children: [
               Expanded(
                 child: OutlinedButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const LoginScreen()),
                   child: Text(
                     tLogin.toUpperCase(),
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 10.0,
               ),
               Expanded(
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const SignUpScreen()),
                   child: Text(
                     tSignup.toUpperCase(),
                   ),

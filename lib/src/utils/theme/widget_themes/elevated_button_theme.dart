@@ -12,11 +12,11 @@ class BElevatedButtonTheme {
   static final lightElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      shape: RoundedRectangleBorder(),
+      shape: const RoundedRectangleBorder(),
       foregroundColor: cWhiteColor,
       backgroundColor: cSecondaryColor,
-      side: BorderSide(color: cSecondaryColor),
-      padding: EdgeInsets.symmetric(vertical: sButtonHeight),
+      side: const BorderSide(color: cSecondaryColor),
+      padding: const EdgeInsets.symmetric(vertical: sButtonHeight),
     ),
   );
 
@@ -25,11 +25,11 @@ class BElevatedButtonTheme {
   static final darkElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      shape: RoundedRectangleBorder(),
+      shape: const RoundedRectangleBorder(),
       foregroundColor: cSecondaryColor,
       backgroundColor: cWhiteColor,
-      side: BorderSide(color: cSecondaryColor),
-      padding: EdgeInsets.symmetric(vertical: sButtonHeight),
+      side: const BorderSide(color: cSecondaryColor),
+      padding: const EdgeInsets.symmetric(vertical: sButtonHeight),
     ),
   );
 
